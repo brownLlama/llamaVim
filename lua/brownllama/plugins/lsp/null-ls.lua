@@ -27,6 +27,7 @@ null_ls.setup({
         diagnostics.ruff, -- python
         diagnostics.terraform_validate, -- terraform
         diagnostics.hadolint, -- Dockerfile
+        diagnostics.markdownlint, -- markdown
         diagnostics.eslint_d.with({ -- js/ts linter
             -- only enable eslint if root has .eslintrc.js (not in youtube nvim video)
             condition = function(utils)

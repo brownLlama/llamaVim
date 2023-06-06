@@ -45,6 +45,7 @@ mason_null_ls.setup({
         "terraform_validate", -- terraform
         "jsonlint", -- json
         "hadolint", -- Dockerfile
+        "markdownlint", -- markdown
     },
     -- auto-install configured formatters & linters (with null-ls)
     automatic_installation = true,

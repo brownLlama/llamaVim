@@ -53,9 +53,9 @@ end
 
 -- configure pyright
 lspconfig["pyright"].setup({
-  capabilities =  capabilities,
-  on_attach = on_attache,
-  filetypes = {"python"},
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "python" },
 })
 
 -- configure emmet language server
