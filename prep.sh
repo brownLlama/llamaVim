@@ -21,8 +21,10 @@ brew install neovim
 brew install git
 
 # Make required Directories and download settings for neovim
-mkdir .config && cd .config
-mkdir nvim && cd nvim
+mkdir .config
+cd .config
+mkdir nvim
+cd nvim
 git clone https://github.com/brownLlama/llamaVim.git
 mv llamaVim/* ./
 rm -rf llamaVim README.md
