@@ -20,6 +20,9 @@ brew install neovim
 # Install git 
 brew install git
 
+# Install npm
+brew install node
+
 # Make required Directories and download settings for neovim
 mkdir .config
 cd .config
