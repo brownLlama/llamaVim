@@ -120,6 +120,11 @@ _G.packer_plugins = {
     path = "/Users/brownllama/.local/share/nvim/site/pack/packer/start/inc-rename.nvim",
     url = "https://github.com/smjonas/inc-rename.nvim"
   },
+  ["lightspeed.nvim"] = {
+    loaded = true,
+    path = "/Users/brownllama/.local/share/nvim/site/pack/packer/start/lightspeed.nvim",
+    url = "https://github.com/ggandor/lightspeed.nvim"
+  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/Users/brownllama/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
