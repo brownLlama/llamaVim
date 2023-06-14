@@ -23,6 +23,15 @@ mason_lspconfig.setup({
     -- list of servers for mason to install
     ensure_installed = {
         "lua_ls",
+        "pyright", -- python
+        "dockerls", -- docker
+        "docker_compose_language_service", -- docker compose
+        "sqlls", -- sql
+        "yamlls", -- YAML
+        "terraformls", -- terraform
+        "tflint", -- terraform
+        "jsonls", -- json
+        "remark_ls", -- markdown
     },
     -- auto-install configured servers (with lspconfig)
     automatic_installation = true, -- not the same as ensure_installed
@@ -35,7 +44,6 @@ mason_null_ls.setup({
         "stylua", -- lua formatter
         "eslint_d", -- ts/js linter
         "black", -- python
-        "pyright", -- python
         "mypy", -- python
         "ruff", -- python
         "sqlfmt", -- sql
