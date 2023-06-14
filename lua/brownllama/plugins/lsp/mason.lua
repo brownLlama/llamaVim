@@ -33,6 +33,7 @@ mason_lspconfig.setup({
         "jsonls", -- json
         "remark_ls", -- markdown
         "bashls", -- bash
+        "grammarly", -- grammarly
     },
     -- auto-install configured servers (with lspconfig)
     automatic_installation = true, -- not the same as ensure_installed

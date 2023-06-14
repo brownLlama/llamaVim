@@ -107,6 +107,20 @@ lspconfig["remark_ls"].setup({
     filetypes = { "markdown" },
 })
 
+-- configure bash
+lspconfig["bashls"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "sh" },
+})
+
+-- configure grammarly
+lspconfig["grammarly"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "plaintext" },
+})
+
 -- configure emmet language server
 lspconfig["emmet_ls"].setup({
     capabilities = capabilities,
