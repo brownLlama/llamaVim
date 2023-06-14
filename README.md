@@ -1,24 +1,49 @@
 # llamaVim
 
-## Setup for cloud VM (GCP)
+## Setup zsh in GCP Instance
 
 After creating the instance in VM, SSH into the instance and then install zsh and oh-my-zsh
-```sudo apt update
-sudo apt install zsh```
-First step is to install zsh and oh-my-zsh
+```
+sudo apt update
+sudo apt install zsh
+```
 
-To config llamaVim in VMs, all you have to do is copy and paste the content of `prep.sh` and then make is executable using
+Check the path of zsh is installed by running
+
+```
+which zsh
+```
+
+By default, the path of zsh should be `/usr/local/bin/zsh`. Copy this path and paste it into `/etc/shells/`
+
+```
+sudo vim /etc/shells
+```
+
+Now, to make zsh your default shell, open `./bashrc` file by running:
+
+```
+vim ~/.bashrc
+```
+and at the end of the file, paste `exec <path_of_zsh>` at the end of the line.
+
+You can just quit the terminal and run again; the configuration steps should appear.
+
+
+## Setup llamaVim
+
+To config llamaVim in VMs, all you have to do is copy and paste the content of `prep.sh` and then make it executable using
 
 `chmod +x prep.sh`
 
-and run the it, using and then make is executable using
+and run it
 
 `./prep.sh`
 
 This should install
 
-- homebrew
 - zsh
+- homebrew
 - neovim
 - git
 
