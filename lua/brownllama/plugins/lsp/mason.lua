@@ -32,6 +32,7 @@ mason_lspconfig.setup({
         "tflint", -- terraform
         "jsonls", -- json
         "remark_ls", -- markdown
+        "bashls", -- bash
     },
     -- auto-install configured servers (with lspconfig)
     automatic_installation = true, -- not the same as ensure_installed
