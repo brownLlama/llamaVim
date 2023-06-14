@@ -1,10 +1,12 @@
 # apt Update
 sudo apt update
 
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.profile
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 sudo apt-get install build-essential
 brew install gcc
 
@@ -27,3 +29,6 @@ mv llamaVim/* ./
 rm -rf llamaVim README.md
 cd
 rm -rf prep.sh
+
+(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.profile
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
