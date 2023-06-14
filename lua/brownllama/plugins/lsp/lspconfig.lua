@@ -51,6 +51,62 @@ lspconfig["pyright"].setup({
     filetypes = { "python" },
 })
 
+-- configure dockerls
+lspconfig["dockerls"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "dockerfile" },
+})
+
+-- configure docker_compose_language_service
+lspconfig["docker_compose_language_service"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "docker-compose" },
+})
+
+-- configure sqlls
+lspconfig["sqlls"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "sql" },
+})
+
+-- configure yamlls
+lspconfig["yamlls"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "yaml", "yml" },
+})
+
+-- configure terraformls
+lspconfig["terraformls"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "terraform" },
+})
+
+-- configure tflint
+lspconfig["tflint"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "terraform" },
+})
+
+-- configure jsonls
+lspconfig["jsonls"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "json" },
+})
+
+-- configure remark_ls
+lspconfig["remark_ls"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "markdown" },
+})
+
 -- configure emmet language server
 lspconfig["emmet_ls"].setup({
     capabilities = capabilities,
