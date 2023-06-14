@@ -8,12 +8,6 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 sudo apt-get install build-essential
 brew install gcc
 
-# Install zsh
-brew install zsh
-
-# ! TODO
-# Find a way to change from bash to zsh
-
 # Install neovim
 brew install neovim
 
