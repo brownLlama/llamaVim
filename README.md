@@ -1,7 +1,6 @@
 # llamaVim
 
-## Setup zsh in GCP Instance
-
+## Setup zsh and oh-my-zsh in GCP Instance
 After creating the instance in VM, SSH into the instance and then install zsh and oh-my-zsh
 
 ```bash
@@ -30,6 +29,12 @@ vim ~/.bashrc
 and at the end of the file, paste `exec <path_of_zsh>` at the end of the line.
 
 You can just quit the terminal and run again; the configuration steps should appear.
+
+To install oh-my-zsh, enter the following code:
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 ## Setup llamaVim
 
