@@ -17,9 +17,7 @@ brew install neovim
 brew install git
 
 # Install npm
-# brew install node
-sudo apt install nodejs npm 
-# When install LSP in neovim, it doesn't recognises the folder path of node, when installed from brew
+brew install node
 
 # Make required Directories and download settings for neovim
 mkdir .config
