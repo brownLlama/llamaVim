@@ -50,8 +50,8 @@ This should install
 
 and then customize neovim to superior llamaVim
 
-## Alias Nvim
-I would like to always goto nvim in sudo mode I put an alias for this command, to do so, we have to write an alias in `.zshrc` file
+## Alias Nvim and Setting python3 from homebrew as default
+I would like to always goto nvim in sudo mode and use python3 which comes from homebrew (If you don't know where it is located run `which python3` and copy the path). So, I put an alias for these commands, to do so, we have to write an alias in `.zshrc` file
 
 ```bash
 vim ~/.zshrc
@@ -60,7 +60,11 @@ vim ~/.zshrc
 Scroll to the end of the file and add following line
 
 ```bash
+# Alias for sudo nvim
 alias nvim='sudo /home/linuxbrew/.linuxbrew/bin/nvim'
+
+# Default python3 from homebrew
+export PATH="</path/to/homebrew/python3>:$PATH"
 ```
 
 Write and quit and reload the zsh config by:
