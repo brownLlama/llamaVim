@@ -49,3 +49,22 @@ This should install
 - git
 
 and then customize neovim to superior llamaVim
+
+## Alias Nvim
+I would like to always goto nvim in sudo mode I put an alias for this command, to do so, we have to write an alias in `.zshrc` file
+
+```bash
+vim ~/.zshrc
+```
+
+Scroll to the end of the file and add following line
+
+```bash
+alias nvim='sudo /home/linuxbrew/.linuxbrew/bin/nvim'
+```
+
+Write and quit and reload the zsh config by:
+
+```bash
+source ~/.zshrc
+```
