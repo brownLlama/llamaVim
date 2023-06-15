@@ -26,7 +26,7 @@ mkdir nvim
 cd nvim
 git clone https://github.com/brownLlama/llamaVim.git
 mv llamaVim/* ./
-rm -rf llamaVim README.md
+rm -rf llamaVim README.md prep.sh
 cd
 rm -rf prep.sh
 
