@@ -9,6 +9,7 @@ local keymap = vim.keymap -- for conciseness
 
 -- clear search highlights
 keymap.set("n", "<leader>nh", ":nohl<CR>")
+keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 
 -- delete single character without copying into register
 keymap.set("n", "x", '"_x')
