@@ -77,3 +77,7 @@ Write and quit and reload the zsh config by:
 ```bash
 source ~/.zshrc
 ```
+
+
+Don't forget to add in .zshrc file for autosuggestions and syntax highlighting.
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
