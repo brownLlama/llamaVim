@@ -24,7 +24,7 @@ null_ls.setup({
 
         diagnostics.jsonlint, -- json
         diagnostics.mypy, -- python
-        diagnostics.ruff, -- python
+        diagnostics.flake8, -- python
         diagnostics.terraform_validate, -- terraform
         diagnostics.hadolint, -- Dockerfile
         diagnostics.markdownlint, -- markdown

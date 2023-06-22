@@ -47,7 +47,7 @@ mason_null_ls.setup({
         "eslint_d", -- ts/js linter
         "black", -- python
         "mypy", -- python
-        "ruff", -- python
+        "flake8", -- python
         "sqlfmt", -- sql
         "yamlfix", -- YAML
         "yamlfmt", -- YAML
