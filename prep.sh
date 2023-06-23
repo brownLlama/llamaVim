@@ -12,6 +12,7 @@ source ~/.zshrc
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# Homebrew essentials
 sudo apt-get install build-essential
 brew install gcc
 
@@ -35,6 +36,10 @@ rm -rf llamaVim README.md prep.sh
 cd
 rm -rf prep.sh
 
+# Sudo for nvim
+echo "alias nvim='sudo -E /home/linuxbrew/.linuxbrew/bin/nvim'" >> ~/.zshrc
+
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.profile
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 source ~/.zshrc
