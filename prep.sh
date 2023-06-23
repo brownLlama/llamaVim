@@ -1,7 +1,8 @@
 # apt Update
 sudo apt update
 
-# Install oh-my-zsh
+# Install zsh and oh-my-zsh
+sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Insatlling autosuggestions and syntax highlight
@@ -11,7 +12,9 @@ echo "plugins=(zsh-autosuggestions zsh-syntax-highlighting)" >> ~/.zshrc
 
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+# Change snau_maharjan to your user_name
+(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/sanu_maharjan/.profile
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 # Homebrew essentials
 sudo apt-get install build-essential
 brew install gcc
@@ -38,8 +41,5 @@ rm -rf prep.sh
 
 # Sudo for nvim
 echo "alias nvim='sudo -E /home/linuxbrew/.linuxbrew/bin/nvim'" >> ~/.zshrc
-
-(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.profile
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 source ~/.zshrc
