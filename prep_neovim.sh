@@ -4,7 +4,7 @@ sudo apt update
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # Change snau_maharjan to your user_name
-(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/sanu_maharjan/.profile
+(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/sanu_maharjan/.zprofile
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 # Homebrew essentials
 sudo apt-get install build-essential
