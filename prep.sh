@@ -30,9 +30,7 @@ rm -rf llamaVim README.md prep.sh
 cd
 rm -rf prep.sh
 
-
 ###########################################################################################################################
-
 
 # Install zsh and oh-my-zsh
 sudo apt install zsh
@@ -47,7 +45,18 @@ echo "plugins=(zsh-autosuggestions zsh-syntax-highlighting)" >> ~/.zshrc
 
 # Sudo for nvim
 echo "alias nvim='sudo -E /home/linuxbrew/.linuxbrew/bin/nvim'" >> ~/.zshrc
+echo "alias c=clear" >> ~/.zshrc
+echo "alias rm=trash" >> ~/.zshrc
 
 source ~/.zshrc
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/sanu_maharjan/.profile
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+
+###########################################################################################################################
+
+# Add following on .zshrc
+function take {
+  mkdir -p $1
+  cd $1
+}
