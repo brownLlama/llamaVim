@@ -35,8 +35,7 @@ cd
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/sanu_maharjan/.profile
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+###########################################################################################################################
 
 # Insatlling autosuggestions and syntax highlight
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -48,6 +47,8 @@ echo "plugins=(git zsh-autosuggestions zsh-syntax-highlighting)" >> ~/.zshrc
 # Sudo for nvim
 echo "alias nvim='sudo -E /home/linuxbrew/.linuxbrew/bin/nvim'" >> ~/.zshrc
 echo "alias c=clear" >> ~/.zshrc
+
+# For MacOS
 # echo "alias rm=trash" >> ~/.zshrc
 # echo "function take {
 #   mkdir -p $1
@@ -55,8 +56,3 @@ echo "alias c=clear" >> ~/.zshrc
 # }" >> ~/.zshrc
 
 source ~/.zshrc
-(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/sanu_maharjan/.profile
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-cd
-rm -rf prep.sh
