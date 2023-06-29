@@ -27,6 +27,14 @@ chmod +x ohmyzsh.sh nvim.sh
 ```bash
 ./nvim.sh
 ```
+
+Now, vim to .zshrc file and move `SOURCE $...`line to end of the file.
+```bash
+vim ~/.zshrc
+```
+
+save and quit.
+
 Run one last command to source .zshrc file
 
 ```bash
