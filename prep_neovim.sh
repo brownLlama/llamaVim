@@ -4,9 +4,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 # Need to be added with plugins=(git ....)
 echo "plugins=(git zsh-autosuggestions zsh-syntax-highlighting)" >> ~/.zshrc
-
-# Sudo for nvim
-echo "alias nvim='sudo -E /home/linuxbrew/.linuxbrew/bin/nvim'" >> ~/.zshrc
 echo "alias c=clear" >> ~/.zshrc
 
 # For MacOS
@@ -47,3 +44,7 @@ git clone https://github.com/brownLlama/llamaVim.git
 mv llamaVim/* ./
 rm -rf llamaVim README.md prep_neovim.sh prep_ohmyzsh.sh
 cd
+
+# Sudo for nvim
+echo "alias nvim='sudo -E /home/linuxbrew/.linuxbrew/bin/nvim'" >> ~/.zshrc
+source ~/.zshrc
