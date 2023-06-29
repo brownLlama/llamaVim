@@ -28,7 +28,6 @@ git clone https://github.com/brownLlama/llamaVim.git
 mv llamaVim/* ./
 rm -rf llamaVim README.md prep.sh
 cd
-rm -rf prep.sh
 
 ###########################################################################################################################
 
@@ -55,3 +54,6 @@ echo "function take {
 source ~/.zshrc
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/sanu_maharjan/.profile
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+cd
+rm -rf prep.sh
