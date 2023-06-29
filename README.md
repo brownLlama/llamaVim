@@ -1,9 +1,6 @@
 # llamaVim
 
 ## Install zsh and oh-my-zsh
-
-
-## Customize oh-my-zsh
 Create prep_ohmyzsh.sh
 
 ```bash
@@ -16,8 +13,8 @@ chmod +x prep_ohmyzsh.sh
 ./prep_ohmyzsh.sh
 ```
 
-## Setup Neovim
-Create prep_neovim.sh
+## Customizing oh-my-zsh and setting up Neovim
+Simiarly create prep_neovim.sh
 
 ```bash
 vim prep_neovim.sh
