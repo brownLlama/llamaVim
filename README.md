@@ -1,13 +1,7 @@
 # llamaVim
 
 ## Install zsh and oh-my-zsh
-```bash
-sudo apt install zsh
-```
 
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
 
 ## Customize oh-my-zsh
 Create prep_ohmyzsh.sh
