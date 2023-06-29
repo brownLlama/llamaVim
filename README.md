@@ -27,5 +27,10 @@ chmod +x ohmyzsh.sh nvim.sh
 ```bash
 ./nvim.sh
 ```
+Run one last command to source .zshrc file
+
+```bash
+source ~/.zshrc
+```
 
 And you are done!
