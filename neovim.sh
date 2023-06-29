@@ -19,7 +19,7 @@ mkdir nvim
 cd nvim
 git clone https://github.com/brownLlama/llamaVim.git
 mv llamaVim/* ./
-rm -rf llamaVim README.md neovim.sh ohmyzsh.sh
+rm -rf llamaVim README.md nvim.sh ohmyzsh.sh
 cd
 
 # Alias
