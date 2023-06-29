@@ -26,7 +26,7 @@ mason_lspconfig.setup({
         "pyright", -- python
         "dockerls", -- docker
         "docker_compose_language_service", -- docker compose
-        "sqlls", -- sql
+        -- "sqlls", -- sql
         "yamlls", -- YAML
         "terraformls", -- terraform
         "tflint", -- terraform

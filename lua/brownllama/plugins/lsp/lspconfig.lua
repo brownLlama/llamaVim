@@ -66,11 +66,11 @@ lspconfig["docker_compose_language_service"].setup({
 })
 
 -- configure sqlls
-lspconfig["sqlls"].setup({
-    capabilities = capabilities,
-    on_attach = on_attach,
-    filetypes = { "sql" },
-})
+-- lspconfig["sqlls"].setup({
+--     capabilities = capabilities,
+--     on_attach = on_attach,
+--     filetypes = { "sql" },
+-- })
 
 -- configure yamlls
 lspconfig["yamlls"].setup({
