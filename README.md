@@ -1,21 +1,21 @@
 # llamaVim
 
 ## Install zsh and oh-my-zsh
-Create two files on your VM `prep_ohmyzsh.sh` and `prep_neovim.sh`
+Create two files on your VM `ohmyzsh.sh` and `neovim.sh`
 
 ```bash
-touch prep_ohmyzsh.sh prep_neovim.sh
+touch ohmyzsh.sh neovim.sh
 ```
-Copy all content from `prep_ohmyzsh.sh` from here (GitHub) and paste on the VM `prep_ohmyzsh.sh` and quit by pressing `:wq`. Do the same with `prep_neovim.sh`.
+Copy all content from `ohmyzsh.sh` from here (GitHub) and paste on the VM `ohmyzsh.sh` and quit by pressing `:wq`. Do the same with `neovim.sh`.
 
 Now make them executable and run them.
 ```bash
-chmod +x prep_ohmyzsh.sh prep_neovim.sh
-./prep_ohmyzsh.sh
+chmod +x ohmyzsh.sh neovim.sh
+./ohmyzsh.sh
 ```
 
 ```bash
-./prep_neovim.sh
+./neovim.sh
 ```
 
 And you are done!
