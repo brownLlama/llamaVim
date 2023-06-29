@@ -1,4 +1,3 @@
 sudo apt update
-sudo apt install npm
-sudo apt install zsh
+sudo apt install nodejs npm python3-venv zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
