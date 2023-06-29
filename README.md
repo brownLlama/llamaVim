@@ -14,8 +14,10 @@ chmod +x prep_neovim.sh
 ```
 
 ## Install zsh and oh-my-zsh
+```bash
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 ## Customize oh-my-zsh
 Similar to setting up neovim, create prep_ohmyzsh.sh
