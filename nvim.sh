@@ -10,7 +10,7 @@ sudo apt-get install build-essential
 brew install gcc
 
 # Install neovim
-brew install neovim node
+brew install node npm python3 unzip neovim
 
 # Download and config llamaVim
 mkdir .config
