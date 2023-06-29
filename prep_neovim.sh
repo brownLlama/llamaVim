@@ -1,6 +1,3 @@
-# apt Update
-sudo apt update
-
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # Change snau_maharjan to your user_name
