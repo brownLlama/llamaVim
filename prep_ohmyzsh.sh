@@ -17,3 +17,6 @@ echo "alias c=clear" >> ~/.zshrc
 # }" >> ~/.zshrc
 
 source ~/.zshrc
+
+cd
+rm prep_neovim.sh prep_ohmyzsh.sh
