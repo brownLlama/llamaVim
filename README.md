@@ -14,6 +14,8 @@ vim ohmyzsh.sh
 
 Copy all content from `ohmyzsh.sh` from here (GitHub) and paste on the VM `ohmyzsh.sh` and quit by pressing `:wq`. Do the same with `nvim.sh`.
 
+You need to restart the VM at this point.
+
 ```bash
 vim nvim.sh
 ```
