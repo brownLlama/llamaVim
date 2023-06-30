@@ -25,10 +25,10 @@ cd
 # Alias
 # Sudo for nvim
 echo "alias nvim='sudo -E /home/linuxbrew/.linuxbrew/bin/nvim'" >> ~/.zshrc
-# Need to be added with plugins=(git ....)
 echo "plugins=(zsh-autosuggestions zsh-syntax-highlighting)" >> ~/.zshrc
 echo "alias c=clear" >> ~/.zshrc
 echo "function take {
   mkdir -p $1
   cd $1
 }" >> ~/.zshrc
+echo "source $ZSH/oh-my-zsh.sh" >> ~/.zshrc
