@@ -21,6 +21,7 @@ git clone https://github.com/brownLlama/llamaVim.git
 mv llamaVim/* ./
 rm -rf llamaVim README.md nvim.sh ohmyzsh.sh
 cd
+rm nvim.sh ohmyzsh.sh
 
 # Alias
 # Sudo for nvim
