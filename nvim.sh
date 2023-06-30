@@ -10,7 +10,7 @@ sudo apt-get install build-essential
 brew install gcc
 
 # Install neovim
-brew install unzip neovim
+brew install neovim
 
 # Download and config llamaVim
 mkdir .config
