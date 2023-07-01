@@ -20,11 +20,12 @@ null_ls.setup({
         formatting.prettier, -- js/ts formatter
         formatting.stylua, -- lua formatter
         formatting.black, -- python formatter
+        formatting.isort, -- python formatter
         formatting.terraform_fmt, --terraform
 
         diagnostics.jsonlint, -- json
-        diagnostics.mypy, -- python
         diagnostics.flake8, -- python
+        diagnostics.pydocstyle, -- python
         diagnostics.terraform_validate, -- terraform
         diagnostics.hadolint, -- Dockerfile
         diagnostics.markdownlint, -- markdown
