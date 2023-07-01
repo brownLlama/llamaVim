@@ -5,7 +5,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # Downloading neovim app image
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
-sudo mv nvim.appimage /usr/bin/nvim
+sudo mv nvim.appimage /usr/bin/zsh
 
 # Download and config llamaVim
 mkdir .config
@@ -20,7 +20,7 @@ rm nvim.sh ohmyzsh.sh
 
 # Alias
 # Sudo for nvim
-echo "alias nvim='sudo -E /home/linuxbrew/.linuxbrew/bin/nvim'" >> ~/.zshrc
+# echo "alias nvim='sudo -E /home/linuxbrew/.linuxbrew/bin/nvim'" >> ~/.zshrc
 echo "plugins=(zsh-autosuggestions zsh-syntax-highlighting)" >> ~/.zshrc
 echo "alias c=clear" >> ~/.zshrc
 echo "function take {
