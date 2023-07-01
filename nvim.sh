@@ -22,7 +22,7 @@ rm nvim.sh ohmyzsh.sh
 
 # Alias
 # Sudo for nvim
-# echo "alias nvim='sudo -E /home/linuxbrew/.linuxbrew/bin/nvim'" >> ~/.zshrc
+echo "alias nvim='sudo -E /home/linuxbrew/.linuxbrew/bin/nvim'" >> ~/.zshrc
 echo "plugins=(zsh-autosuggestions zsh-syntax-highlighting)" >> ~/.zshrc
 echo "alias c=clear" >> ~/.zshrc
 echo "function take {
