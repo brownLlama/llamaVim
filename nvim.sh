@@ -5,7 +5,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # Downloading neovim app image
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
-# sudo mv nvim.appimage /usr/bin/zsh
+mkdir -p ~/bin
+mv ~/nvim.appimage ~/bin/nvim
+
 
 # Download and config llamaVim
 mkdir .config
@@ -27,4 +29,5 @@ echo "function take {
   mkdir -p $1
   cd $1
 }" >> ~/.zshrc
+echo "export PATH='$HOME/bin:$PATH'" >> ~/.zshrc
 echo "source $ZSH/oh-my-zsh.sh" >> ~/.zshrc
